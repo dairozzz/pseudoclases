@@ -32,10 +32,12 @@ body{
 .card_title::before,
 .card_title::after{
   content: "";
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 20%;
   height: 3px;
   background-color: black ;
+  position: relative;
+  margin-bottom: 5px;
 }
 
 ul{
